@@ -21,7 +21,9 @@ export default function BookingPage() {
           <SiteLogoFull />
         </div>
         <H1 variant="h2">Book an appointment</H1>
-        <p className="text-sm italic py-0 my-0">Open Mon - Sat: 9:00am - late (5:30pm last appointment)</p>
+        <p className="text-sm italic py-0 my-0">
+          Open Mon - Sat: 9:00am - late (5:30pm last appointment)
+        </p>
         <InfoPanel>
           <ul className="list-disc pl-4">
             <li>
@@ -57,7 +59,8 @@ export default function BookingPage() {
         <div className="bg-tdn-highlight-pale flex flex-col gap-4 md:rounded-3xl grow p-4 md:p-6 md:pb-4">
           <iframe
             id="timelyWidget"
-            src="https://bookings.gettimely.com/dreamynails/bb/book"
+            // src="https://bookings.gettimely.com/dreamynails/bb/book"
+            src="https://bookings.gettimely.com/stellanail/bb/book"
             style={{
               width: '100%',
               height: '80vh',
