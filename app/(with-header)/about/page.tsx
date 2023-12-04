@@ -6,7 +6,7 @@ import { H1, H2, H3 } from '@/components/Heading/Heading';
 import Hero from '@/components/Hero/Hero';
 import SiteCTASection from '@/components/SiteCTASection/SiteCTASection';
 
-import imgStella from '../../../public/Stella-about-me.webp';
+import imgStella from '../../../public/stella-about-me.webp';
 
 import PageStructuredData from './PageStructuredData';
 
