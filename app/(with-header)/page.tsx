@@ -15,9 +15,9 @@ import tdnLogoFull from '@/public/tdn-logo-full.svg';
 import RootStructuredData from '../RootStructuredData';
 
 export const metadata: Metadata = {
-  title: 'Sydney BIAB nail art, manicures & press-ons - The Dreamy Nails',
+  title: 'Texas BIAB nail art, manicures & press-ons - The Stella Nails',
   description:
-    "I'm creating unique hand-painted nail designs from my private home nail salon in Sydney",
+    "I'm creating unique hand-painted nail designs from my private home nail salon in Texas",
 };
 
 export default function Home() {
@@ -27,12 +27,12 @@ export default function Home() {
       <div className="grow">
         <Hero
           expanded
-          title={<Image src={tdnLogoFull} alt="The Dreamy Nails" width={300} />}
-          subtitle="BIAB nail art, manicures & press-ons - creating unique hand-painted nail designs from my private home nail salon in Sydney."
+          title={<Image src={tdnLogoFull} alt="The Stella Nails" width={300} />}
+          subtitle="BIAB nail art, manicures & press-ons - creating unique hand-painted nail designs from my private home nail salon in Texas."
           feature={
             <Image
               src={tdnHeroSamples}
-              alt="Photos of beautiful hand-painted nail designs by Selina from The Dreamy Nails salon in Sydney"
+              alt="Photos of beautiful hand-painted nail designs by Stella from The Stella Nails salon in Texas"
               priority
               quality={100}
               placeholder="blur"
@@ -44,14 +44,14 @@ export default function Home() {
         <Container>
           <Section>
             <Section.Column doubleWidth>
-              <H1>Welcome to The Dreamy Nails</H1>
+              <H1>Welcome to The Stella Nails</H1>
               <p>
-                Hello! I&apos;m Selina, a nail artist working from my private and comfortable home
+                Hello! I&apos;m Stella, a nail artist working from my private and comfortable home
                 studio. I love turning ordinary nails into works of art!
               </p>
               <p>
-                I&apos;m conveniently-located in Erskineville, Sydney — close to public transport,
-                and walking distance from Newtown and Redfern.
+                I&apos;m conveniently-located in Garland, Texas — close to public transport, and
+                walking distance from the Firewheel Town Center.
               </p>
               <p>Do you want to know more about my salon and my journey with nail art?</p>
               <ButtonLink href="/about" variant="subtle">
@@ -61,7 +61,7 @@ export default function Home() {
             <Section.Column>
               <Image
                 src={tdnFeatureImg}
-                alt="Pastel princess-themed hand painted nail designs by The Dreamy Nails in Sydney"
+                alt="Pastel princess-themed hand painted nail designs by The Stella Nails in Texas"
                 width={350}
                 height={350}
                 className="mx-auto"

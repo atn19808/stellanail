@@ -6,12 +6,12 @@ import { H1, H2, H3 } from '@/components/Heading/Heading';
 import Hero from '@/components/Hero/Hero';
 import SiteCTASection from '@/components/SiteCTASection/SiteCTASection';
 
-import imgSelina from '../../../public/selina-about-me.webp';
+import imgStella from '../../../public/Stella-about-me.webp';
 
 import PageStructuredData from './PageStructuredData';
 
 export const metadata: Metadata = {
-  title: 'About me - The Dreamy Nails',
+  title: 'About me - The Stella Nails',
   description:
     'About my home nail salon journey. Understand why creating a safe space to express yourself is so important to me',
 };
@@ -24,11 +24,11 @@ export default function AboutMe() {
         contained
         flipped
         title={<H1>About me</H1>}
-        subtitle="Hello and welcome! I'm Selina 🤗"
+        subtitle="Hello and welcome! I'm Stella 🤗"
         feature={
           <Image
-            src={imgSelina}
-            alt="Photo of Selina, owner of The Dreamy Nails"
+            src={imgStella}
+            alt="Photo of Stella, owner of It's Stella Nails"
             priority
             quality={100}
             placeholder="blur"
@@ -37,7 +37,7 @@ export default function AboutMe() {
       />
       <Section as="article">
         <Section.Column>
-          <H2>How The Dreamy Nails was born</H2>
+          <H2>How It&apos;s Stella Nails was born</H2>
           <p>
             I&apos;ve always been creative from a young age, but especially growing up in an Asian
             family, I never thought that a career in Arts would be an option for me.
@@ -64,7 +64,7 @@ export default function AboutMe() {
             These events made me realise that I needed to start living life for myself instead of
             doing what everyone expected of me, so I did the unspeakable, and started to pursue my
             hobby of creating beautiful things that bring joy as a full time career. And so, The
-            Dreamy Nails was born!
+            Stella Nails was born!
           </p>
           <p>
             When I thought about the kind of person that I am, and my core values, I knew I wanted

@@ -1,4 +1,4 @@
-"use client"
+'use client';
 // TODO: consider how to refactor so menu state can be a route/history item, this will enable parts of header to be server component
 
 import Link from 'next/link';
@@ -16,8 +16,8 @@ export default function SiteHeader() {
 
   return (
     <header className="z-50 sticky flex items-center justify-between bg-white top-0 w-full py-2 px-4 mx-auto">
-      <Link href="/" aria-label="The Dreamy Nails Homepage">
-        <Image width={26} src={tdnLogo} alt='' priority />
+      <Link href="/" aria-label="The Stella Nails Homepage">
+        <Image width={26} src={tdnLogo} alt="" priority />
       </Link>
       <SiteHeaderToggle isExpanded={isExpanded} onClick={() => setExpanded((prev) => !prev)} />
       <div

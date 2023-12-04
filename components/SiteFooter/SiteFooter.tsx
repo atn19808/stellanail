@@ -46,7 +46,7 @@ export default function SiteFooter() {
             </ButtonLink>
           </li>
         </ul>
-        <small className="w-full font-extralight">&copy; 2023 The Dreamy Nails</small>
+        <small className="w-full font-extralight">&copy; 2023 The Stella Nails</small>
       </div>
     </footer>
   );

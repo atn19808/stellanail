@@ -14,12 +14,12 @@ export default function SiteCTASection({ hideServiceMenu = false }: SiteCTASecti
   return (
     <Section>
       <Section.Column>
-        <H2>Book your dreamy experience</H2>
+        <H2>Book your stella experience</H2>
         <Section as="div">
           <Section.Column doubleWidth>
             <p>
-              Let me take care of you in my private, clean home salon — away from all
-              the hustle and bustle — with a beautiful nail design tailored just for you.
+              Let me take care of you in my private, clean home salon — away from all the hustle and
+              bustle — with a beautiful nail design tailored just for you.
             </p>
             <p>
               If you have any issues, questions, or to book an after-hours appointment, please{' '}
